@@ -1,25 +1,58 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <title> Atividade 20PTS - Java Script</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Avaliação Pratica de JavaScript Nível Básico</title>
+<style>
+    header{
+        margin: 0;
+        padding: 0;
+        background-color: rgba(50, 24, 222, 0.549);
+        color: whitesmoke;
+        text-align: center;
+    }
+    body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(14, 8, 0);
+    }
+    section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    button {
+    margin: .3rem;
+    height: 30px;
+    width: 500px;
+    max-width: 20rem;
+    border: 1px solid #53525200;
+    border-radius: 20px;
+    }
+    button:hover {
+    color: chartreuse;
+    transition: .2s ease-in-out;
+    background: #8d75ee;
+    border: 1.1px;
+    }
+</style>
 </head>
 <body>
-    <h1>- Atividade 20PTS - Java Script</h1>
-    <section style=" display: inline-grid;">
-        <button onclick="calculadoraAvancada()" style="margin: 5px ;height: 60px; width: 120px;">Calculadora</button>
-        <button onclick="classificarIdade()" style="margin: 5px ;height: 60px; width: 120px;">Clasificação etária</button>
-        <button onclick="tabuada()" style="margin: 5px ;height: 60px; width: 120px;">Tabuada</button>
-        <button onclick="somaParesWhile()" style="margin: 5px ;height: 60px; width: 120px;">soma Pares While</button>
-        <button onclick="validaSenha()" style="margin: 5px ;height: 60px; width: 120px;">valida Senha</button>
-        <button onclick="calcularFatorial()" style="margin: 5px ;height: 60px; width: 120px;">calcular Fatorial</button>
-        <button onclick="verificarPrimo()" style="margin: 5px ;height: 60px; width: 120px;">verificar Primo</button>
-        <button onclick="mediaAritmetica()" style="margin: 5px ;height: 60px; width: 120px;">media Aritmetica</button>
-        <button onclick="contadorRegressivo()" style="margin: 5px ;height: 60px; width: 120px;">contador Regressivo</button>
-        <button onclick="verificaçãoMúltiplosCriterios()" style="margin: 5px ;height: 60px; width: 120px;">verificação Múltiplos Criterios</button>
-        <script src="ex.js"></script>
-    </section>
+    <header><h1>Avaliação Pratica de JavaScript Nível Básico</h1></header>
+<section>
+    <button onclick="calculadoraAvancada()">calculadoraAvancada</button>
+    <button onclick="classificarIdade()">classificarIdade</button>
+    <button onclick="tabuadaPersonalizada()">tabuadaPersonalizada</button>
+    <button onclick="somaParesWhile()">somaParesWhile</button>
+    <button onclick="validaSenha()">validaSenha</button>
+    <button onclick="calcularFatorial()">calcularFatorial</button>
+    <button onclick="verificarPrimo()">verificarPrimo</button>
+    <button onclick="mediaAritmetica()">mediaAritmetica</button>
+    <button onclick="contadorRegressivo()">contadorRegressivo</button>
+    <button onclick="verificaçãoMúltiplosCriterios()">verificaçãoMúltiplosCriterios</button>
+</section>
+<script src="ex01.js"></script>
 </body>
 </html>
